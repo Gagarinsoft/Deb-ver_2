@@ -23,5 +23,36 @@ input[type=number] {
     height: 40px;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 99%;
+    height: 100%;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+/* HEADER */
+.header-app {
+    width: 95%;
+    height: 30%;
+    border-bottom: 1px solid black;
+}
+
+/* BODY */
+.main-app {
+    width: 95%;
+    height: 60%;
+    border-bottom: 1px solid black;
+}
+
+/* FOOTER */
+.footer-app {
+    width: 95%;
+    height: 30%;
+    /* border-bottom: 1px solid black; */
+}
 
 
