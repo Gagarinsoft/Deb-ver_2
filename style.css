@@ -36,9 +36,54 @@ input[type=number] {
 
 /* HEADER */
 .header-app {
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    flex-direction: row;
     width: 95%;
     height: 30%;
     border-bottom: 1px solid black;
+}
+.score-info-box {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.round-info-box {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.score-display {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2px;
+    width: 60px;
+    height: 40px;
+    /* border: 1px solid black; */
+}
+
+.event-score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+.event-points {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game-points {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* BODY */
