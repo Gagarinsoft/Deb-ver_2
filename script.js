@@ -21,3 +21,16 @@ let guiElements = {
 
 
 }
+
+function clearComboCount() {
+    console.log('Bella =0')
+}
+
+function upComboCount(id, combo) {
+    console.log('Bella +1')
+    
+}
+
+function downComboCount() {
+    console.log('Bella -1')
+}

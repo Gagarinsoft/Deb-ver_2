@@ -34,8 +34,79 @@
                 </div>
             </div>
         </div>
-        <div class="main-app">M</div>
-        <div class="footer-app">F</div>
+        <div class="main-app">
+            <div class="hor-cls">
+                <div class="hor-cls-c">168</div>
+                <div class="hor-cls-c">152</div>
+            </div>
+            <div class="ver-cls">
+                <div class="ver-cls-c">
+                    <input id="l-t-pts" type="number">
+                    <button class="btn">bite</button>
+                    <button class="btn">-100</button>
+                    <button class="btn">half</button>
+                    <button class="btn">win!</button>
+                    <div class="combo-item-left">
+                        <div class="up-count" onclick="downComboCount('bella-up-l', 'bella')"></div>
+                        <div class="combo-count" data-id="bella-up-l" data-combo="bella" onclick="clearComboCount(this.dataset.id, this.dataset.combo)">2o</div>
+                        <div id="bella-up-l" class="down-count c-value" data-current="0" data-max="1" onclick="upComboCount(this.id, 'bella')">2</div>
+                    </div>
+                    <div class="combo-item-left">
+                        <div class="up-count c-value" onclick="downComboCount('three-up-l', 'three')"></div>
+                        <div class="combo-count" data-id="three-up-l" data-combo="three" onclick="clearComboCount(this.dataset.id, this.dataset.combo)">2o</div>
+                        <div id="three-up-l" class="down-count" data-current="0" data-max="4" onclick="upComboCount(this.id, 'three')"></div>
+                        <div id="bella-total-counter-l" class="box-counter">7</div>
+                    </div>
+                    <div class="combo-item-left">
+                        <div class="up-count" onclick="downComboCount('four-up', 'four')"></div>
+                        <div class="combo-count" data-id="four-up-l" data-combo="four" onclick="clearComboCount(this.dataset.id, this.dataset.combo)">5o</div>
+                        <div id="four-up-l" data-current="0" data-max="4" class="down-count" onclick="upComboCount(this.id, 'four')"></div>
+                    </div>
+                    <div class="combo-item-left">
+                        <div class="up-count" onclick="downComboCount('five-up', 'five')"></div>                        
+                        <div class="combo-count" data-id="five-up-l" data-combo="five" onclick="clearComboCount(this.dataset.id, this.dataset.combo)">7o</div>
+                        <div id="five-up-l" class="down-count" data-current="0" data-max="2" onclick="upComboCount(this.id, 'five')"></div>
+                    </div>
+                </div>
+                <div class="ver-cls-c">
+                    <div>2</div>
+                    <div>C</div>
+                </div>
+                <div class="ver-cls-c">
+                    <input id="r-t-pts" type="number">
+                    <button class="btn">bite</button>
+                    <button class="btn">-100</button>
+                    <button class="btn">half</button>
+                    <button class="btn">win!</button>
+                    <div class="combo-item-right">
+                        <div id="bella-up-r" class="up-count" data-current="0" data-max="1" onclick="upComboCount(this.id, 'bella')"></div>
+                        <div class="combo-count" data-id="bella-up-r" data-combo="bella" onclick="clearComboCount(this.dataset.id, this.dataset.combo)">20</div>
+                        <div class="down-count" onclick="downComboCount('bella-up-r', 'bella')"></div>
+                    </div>
+                    <div class="combo-item-right">
+                        <div id="three-up-r" class="up-count" data-current="0" data-max="4" onclick="upComboCount(this.id, 'three')"></div>
+                        <div class="combo-count" data-id="three-up-r" data-combo="three" onclick="clearComboCount(this.dataset.id, this.dataset.combo)">20</div>
+                        <div class="down-count" onclick="downComboCount('three-up-r', 'three')"></div>
+                    </div>
+                    <div class="combo-item-right">
+                        <div id="four-up-r" class="up-count" data-current="0" data-max="4" onclick="upComboCount(this.id, 'four')"></div>
+                        <div class="combo-count" data-id="four-up-r" data-combo="four" onclick="clearComboCount(this.dataset.id, this.dataset.combo)">50</div>
+                        <div class="down-count" onclick="downComboCount('four-up-r', 'four')"></div>
+                    </div>
+                    <div class="combo-item-right">
+                        <div id="five-up-r" class="up-count" data-current="0" data-max="2" onclick="upComboCount(this.id, 'five')"></div>
+                        <div class="combo-count" data-id="five-up-r" data-combo="five" onclick="clearComboCount(this.dataset.id, this.dataset.combo)">70</div>
+                        <div class="down-count" onclick="downComboCount('five-up-r', 'five')"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-app">
+            <div class="footer-temp">
+                <img src="img/pair_sm.png" alt="">
+                <div class="txt-c">4</div>
+            </div>
+        </div>
     </div>
     
     
